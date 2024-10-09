@@ -1,0 +1,176 @@
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #007bff; /* Background color for the section */
+    color: white; /* Text color */
+}
+
+.profile-image {
+    border-radius: 50%; /* Circular image */
+    width: 150px; /* Adjust the size */
+    height: 150px; /* Maintain aspect ratio */
+    border: 3px solid #fff; /* White border around the image */
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em; /* Adjust font size */
+}
+
+p {
+    font-size: 1.2em; /* Adjust font size */
+    max-width: 600px; /* Maximum width for readability */
+    margin: 0 auto; /* Center the paragraph */
+}
+
+.contact-button {
+    display: inline-block; /* Button styling */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white; /* Button background */
+    color: #007bff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.contact-button:hover {
+    background-color: #e0e0e0; /* Hover effect */
+}
+#skills {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center; /* Center the text */
+}
+
+.skills-container {
+   flex-direction: column;
+    align-items: center; /* Center the skill items */
+}
+
+.skill {
+    margin: 20px 0;
+    width: 80%; /* Set width for uniformity */
+}
+
+.progress-bar {
+    background-color: #e0e0e0; /* Background of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+}
+
+.progress {
+    background-color: #007bff; /* Color of the progress */
+    height: 20px; /* Height of the progress bar */
+    border-radius: 5px; /* Rounded corners */
+    transition: width 0.5s; /* Smooth transition effect */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+#contact {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center; /* Center the content */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form elements */
+    margin-bottom: 30px; /* Space below the form */
+}
+
+input, textarea {
+    width: 80%; /* Width of input fields */
+    padding: 10px;
+    margin: 10px 0; /* Space between fields */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.social-links {
+    margin-top: 20px; /* Space above social links */
+}
+
+.social-links a {
+    margin: 0 10px; /* Space between links */
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Base font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Responsive Layouts */
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column; /* Stack skills vertically */
+        align-items: center; /* Center align skills */
+    }
+
+    .skill {
+        width: 90%; /* Increase width for smaller screens */
+    }
+
+    #contact form {
+        width: 100%; /* Full width form */
+    }
+
+    input, textarea {
+        width: 90%; /* Adjust input field width */
+    }
+
+    .social-links {
+        flex-direction: column; /* Stack social links vertically */
+        align-items: center; /* Center align links */
+    }
+
+    .social-links a {
+        margin: 5px 0; /* Adjust spacing between links */
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em; /* Adjust heading size */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust subheading size */
+    }
+
+    p {
+        font-size: 1em; /* Adjust paragraph size */
+    }
+
+    button {
+        padding: 10px; /* Adjust button padding */
+        font-size: 1em; /* Adjust button font size */
+    }
+}
